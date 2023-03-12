@@ -1,23 +1,18 @@
-// const { MongoClient, ServerApiVersion } = require("mongodb");
-// require("dotenv").config();
+// const { MongoClient } = require('mongodb')
 
-// const client = new MongoClient(process.env.MONGO_URI, {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true,
-//   serverApi: ServerApiVersion.v1,
-// });
+// let dbConnection
 
-// async function connect() {
-//   try {
-//     await client.connect();
-//     console.log("DB connected");
-//   } catch (err) {
-//     console.log("DB Connection error", err);
-//   }
+// module.exports = {
+//     connectToDb: (cb) => {
+//         MongoClient.connect(uri)
+//         .then((client) => {
+//             dbConnection = client.db()
+//             return cb()
+//         })
+//         .catch(err => {
+//             console.log(err)
+//             return cb(err)
+//         })
+//     },
+//     getDb: () => dbConnection
 // }
-
-// const clientPromise = client.connect();
-
-// module.exports = { client, connect, clientPromise };
-
-

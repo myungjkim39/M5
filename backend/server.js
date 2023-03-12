@@ -3,6 +3,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const morgan = require("morgan");
 const cors = require("cors");
+const testRoutes = require("./routes/testRoutes");
 require("dotenv").config();
 
 // app
@@ -19,16 +20,16 @@ mongoose
 
 // middleware
 app.use(morgan("dev"));
-app.use(cors({ origin: true, credentials: true }));
+app.use(cors());
+app.use(express.json());
 
 // routes
-const testRoutes = require("./routes/test");
-app.use("/", testRoutes);
+app.use("/api", testRoutes);
 
 //PORT
-const PORT = process.env.PORT || 8081;
+const PORT = process.env.PORT || 8082;
 
 // listener
-const server = app.listen(PORT, () =>
+app.listen(PORT, () =>
   console.log(`Server is running on port ${PORT}`)
 );

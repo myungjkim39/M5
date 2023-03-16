@@ -5,6 +5,7 @@ const morgan = require("morgan");
 const cors = require("cors");
 const TestRoutes = require("./routes/TestRoutes");
 const ReviewRoutes = require("./routes/ReviewRoutes")
+const ProductRoutes = require("./routes/ProductRoutes")
 require("dotenv").config();
 
 // app
@@ -27,6 +28,7 @@ app.use(express.json());
 // routes
 app.use(TestRoutes);
 app.use(ReviewRoutes);
+app.use(ProductRoutes);
 
 //PORT
 const PORT = process.env.PORT || 8082;

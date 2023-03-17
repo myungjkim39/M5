@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 8080
 
 # Start the server
-CMD [ "node", "server" ]
+CMD [ "node", "Server" ]

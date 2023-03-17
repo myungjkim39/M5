@@ -2,9 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 //import controllers
-const Message = require("../controllers/schema");
-
-// import middlewares
+const Message = require("../controllers/Schema");
 
 //api routes
 router.get("/test", async (req, res) => {

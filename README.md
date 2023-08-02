@@ -1,6 +1,6 @@
 # M5
 
-**PB Tech Website Redesign Project**
+<h1>PB Tech Website Redesign Project</h1>
 
 *Introduction*
 

@@ -13,11 +13,6 @@ This project was a collaboration with other UX designers at Mission Ready aimed 
 
 The primary goal of the project was to revamp the PB Tech website, taking user experience to the next level. We focused on improving the website's usability, accessibility, and overall visual appeal.
 
-## Project Features
-
-- Improved navigation and search functionality
-- Responsive design for a seamless experience across devices
-
 ## Technologies Used
 
 - Javascript

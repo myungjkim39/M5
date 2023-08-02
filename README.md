@@ -18,10 +18,36 @@ The primary goal of the project was to revamp the PB Tech website, taking user e
 <li>Mongo DB</li>
 <li>Docker Compose</li>
 
-## Installation and Setup
+<h3>Installation and Setup</h3>
 
-1. Clone the repository: `git clone https://github.com/your-username/pb-tech-redesign.git`
-2. Navigate to the project directory: `cd pb-tech-redesign`
+1. Clone the repository: `git clone https://github.com/myungjkim39/M5`
+2. Navigate to the project directory: `frontend`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
 
+## Screenshots or Demo
+
+![PB](readme-images/readme-images/screen1.png)
+![PB](readme-images/readme-images/screen2.png)
+![PB](readme-images/readme-images/screen3.png)
+![PB](readme-images/readme-images/screen4.png)
+
+## Project Structure
+
+TODO: Describe the project structure and organization of directories.
+
+## API Documentation
+
+TODO: If applicable, provide documentation on how to use the backend API.
+
+## Deployment
+
+TODO: If applicable, provide instructions on how to access the live version of the redesigned PB Tech website.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries, you can reach me at audwns39@hotmail.com 

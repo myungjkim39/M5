@@ -4,6 +4,11 @@
 
 This project was a collaboration with other UX designers at Mission Ready aimed at redesigning the PB Tech website to enhance user experience.
 
+![PB](readme-images/screen1.png)
+![PB](readme-images/screen2.png)
+![PB](readme-images/screen3.png)
+![PB](readme-images/screen4.png)
+
 ## About the Project
 
 The primary goal of the project was to revamp the PB Tech website, taking user experience to the next level. We focused on improving the website's usability, accessibility, and overall visual appeal.
@@ -22,14 +27,6 @@ The primary goal of the project was to revamp the PB Tech website, taking user e
 - Express
 - MongoDB
 - Docker Compose
-
-
-## Screenshots or Demo
-
-![PB](readme-images/screen1.png)
-![PB](readme-images/screen2.png)
-![PB](readme-images/screen3.png)
-![PB](readme-images/screen4.png)
 
 ## Project Structure
 

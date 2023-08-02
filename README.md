@@ -10,13 +10,18 @@ The primary goal of the project was to revamp the PB Tech website, taking user e
 
 <h3>Technologies Used</h3>
 
-<li> 
-Javascript
-React
-Tailwind CSS
-Node JS 
-Express
-Mongo DB
-Docker Compose
-</li>
+<li>Javascript</li>
+<li>React</li>
+<li>Tailwind CSS</li>
+<li>Node JS </li>
+<li>Express</li>
+<li>Mongo DB</li>
+<li>Docker Compose</li>
+
+## Installation and Setup
+
+1. Clone the repository: `git clone https://github.com/your-username/pb-tech-redesign.git`
+2. Navigate to the project directory: `cd pb-tech-redesign`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
 

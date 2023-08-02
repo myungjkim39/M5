@@ -10,6 +10,7 @@ The primary goal of the project was to revamp the PB Tech website, taking user e
 
 <h3>Technologies Used</h3>
 
+<li> 
 Javascript
 React
 Tailwind CSS
@@ -17,4 +18,5 @@ Node JS
 Express
 Mongo DB
 Docker Compose
+</li>
 

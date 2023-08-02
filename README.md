@@ -27,10 +27,10 @@ The primary goal of the project was to revamp the PB Tech website, taking user e
 
 ## Screenshots or Demo
 
-![PB](readme-images/readme-images/screen1.png)
-![PB](readme-images/readme-images/screen2.png)
-![PB](readme-images/readme-images/screen3.png)
-![PB](readme-images/readme-images/screen4.png)
+![PB](readme-images/screen1.png)
+![PB](readme-images/screen2.png)
+![PB](readme-images/screen3.png)
+![PB](readme-images/screen4.png)
 
 ## Project Structure
 

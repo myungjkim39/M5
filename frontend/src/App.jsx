@@ -1,6 +1,9 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ProductPage from "./pages/ProductPage";
+import './App.css'
+
+
 
 function App() {
   return (

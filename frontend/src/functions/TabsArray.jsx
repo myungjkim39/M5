@@ -35,25 +35,28 @@ const tabsArray = [
         imageSrc: Vector,
         author: "Great Value",
         imageSrc2: Star,
-        comment: "WOWOWOWOWOWOWOWOWOWOWOWOWOW",
+        comment:
+          "Point to note: is that I got this to use with Ubuntu Linux (no microsoft) and it's working quite well. However, if you''re planning the same, note that there is a bitlocker that needs unlocking before you can update the BIOS to boot from the USB drive. This makes things a little awkward. Other than that I would recommend this.",
       },
       {
         imageSrc: Vector,
         author: "Great Value",
         imageSrc2: Star,
-        comment: "WOWOWOWOWOWOWOWOWOWOWOWOWOW",
+        comment:
+          "A great computer for the price,works well,very happy with it. Buying it was a pleasant experience,the staff were extremely helpful and very nice ...We are happy to return to PBTech next time we need anything..😁",
       },
       {
         imageSrc: Vector,
         author: "Great Value",
         imageSrc2: Star,
-        comment: "WOWOWOWOWOWOWOWOWOWOWOWOWOW",
+        comment: "Recommend for home and business use.",
       },
       {
         imageSrc: Vector,
         author: "Great Value",
         imageSrc2: Star,
-        comment: "WOWOWOWOWOWOWOWOWOWOWOWOWOW",
+        comment:
+          "Very good lap top dose way more than what we needed, great buy",
       },
     ],
   },

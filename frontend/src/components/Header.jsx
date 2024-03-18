@@ -1,3 +1,6 @@
+import React, { useState } from "react";
+import { Button } from "./Button";
+import { Link } from "react-router-dom";
 import Logo from "../images/logo.jpg";
 
 const Departments = [
@@ -23,6 +26,10 @@ const menuLists = [
 ];
 
 export default function Header() {
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => setClick(!click);
+
   return (
     <div className="bg-primary text-white">
       <ul className="flex justify-center items-center text-xs space-x-5">
@@ -34,7 +41,9 @@ export default function Header() {
       </ul>
 
       <div className="flex flex-row ml-16 ">
-        <img src={Logo} />
+        <a href="/product">
+          <img src={Logo} />
+        </a>
 
         <div className="flex items-center ml-10">
           <input
